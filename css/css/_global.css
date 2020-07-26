@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'DINNextLTArabic-Regular';
+  src: url("../fonts/DINNextLTArabic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/DINNextLTArabic-Regular.woff") format("woff"), url("../fonts/DINNextLTArabic-Regular.ttf") format("truetype"), url("../fonts/DINNextLTArabic-Regular.svg#DINNextLTArabic-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'DINNextLTArabic-Regular';
+  direction: rtl;
+  text-align: right;
+  font-size: 16px;
+  background: #c21a31;
+  margin: 0; }
+
+html {
+  margin: 0; }
+
+.text-white {
+  color: #fff; }
+
+h2 {
+  color: #fff; }
+
+.d-flex.con {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh; }
+
+.header {
+  padding: 20px 0; }
+  .header img {
+    margin-bottom: 30px; }
+
+.container-main {
+  background-color: #C21A31;
+  overflow: hidden; }
+
+@media (min-width: 992px) {
+  .right-side {
+    padding: 10px 40px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.hide-scrollbar {
+  overflow: -moz-hidden-unscrollable;
+  overflow: hidden; }
+
+.sbt-btn {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #909090;
+  color: #C31539;
+  outline: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  padding: 10px 20px;
+  background-color: white; }
+  @media (min-width: 992px) {
+    .sbt-btn {
+      padding: 10px 38px; } }
+  .sbt-btn > span {
+    padding-bottom: 4px;
+    display: inline-block; }
+  .sbt-btn .icon {
+    font-weight: normal; }
+
+@media (max-width: 991px) {
+  h1,
+  h2 {
+    font-size: 22px; } }
+
+.steps-indicator {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .steps-indicator span {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px; }
+    .steps-indicator span.active {
+      background-color: #fff; }
+
+.instructions {
+  color: white; }
+
+.hide {
+  display: none; }
+
+.card_back {
+  margin-top: 20px;
+  margin-right: 10px; }
+
+.holder {
+  overflow: hidden;
+  height: 480px; }
+
+#capture {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  position: relative; }
+  #capture img {
+    max-width: 100%; }
+  #capture input,
+  #capture .name {
+    position: absolute;
+    bottom: 28px;
+    right: 120px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 0;
+    color: #36223b;
+    font-size: 22px; }
+
+.the-inputs {
+  overflow: hidden;
+  height: 42px; }
+  .the-inputs .input {
+    margin-bottom: 20px; }
+    .the-inputs .input input {
+      font-size: 22px;
+      padding-bottom: 16px; }
+
+.btn-primary,
+.btn-primary:hover {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  min-width: 200px;
+  margin-top: 20px;
+  background: #2B3C6B;
+  border-color: #2B3C6B;
+  max-width: 260px; }
+
+canvas {
+  margin: 0 auto;
+  display: block; }
+
+.renderedimg {
+  text-align: center; }
+  .renderedimg img {
+    max-width: 100%; }
+
+.loading {
+  width: 160px; }
+
+.tips {
+  color: #fff;
+  margin-bottom: 10px; }

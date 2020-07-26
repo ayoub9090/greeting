@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'DINNextLTArabic-Regular';
+  src: url("../fonts/DINNextLTArabic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/DINNextLTArabic-Regular.woff") format("woff"), url("../fonts/DINNextLTArabic-Regular.ttf") format("truetype"), url("../fonts/DINNextLTArabic-Regular.svg#DINNextLTArabic-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'DINNextLTArabic-Regular';
+  direction: rtl;
+  text-align: right;
+  font-size: 16px; }
+
+.text-white {
+  color: #fff; }
+
+.d-flex.con {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh; }
+
+.header {
+  padding: 20px 0; }
+  .header img {
+    margin-bottom: 30px; }
+
+.container-main {
+  background-color: #C21A31;
+  overflow: hidden; }
+
+@media (min-width: 992px) {
+  .right-side {
+    padding: 10px 40px; } }
+
+.copyright {
+  text-align: center; }
+  .copyright > span {
+    opacity: 0.92; }
+  .copyright a {
+    color: #fff; }
+
+.step {
+  min-height: 682px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.sidebar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 4; }
+  @media (min-width: 768px) {
+    .sidebar {
+      background-image: url(../images/cover.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; } }
+  .sidebar .copyright {
+    z-index: 4; }
+  .sidebar:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    background-position-y: bottom;
+    z-index: 2; }
+    @media (min-width: 768px) {
+      .sidebar:before {
+        background-image: url(../images/borders.svg); } }
+
+.sbt-btn {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #909090;
+  color: #C31539;
+  outline: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  padding: 10px 20px;
+  background-color: white; }
+  @media (min-width: 992px) {
+    .sbt-btn {
+      padding: 10px 38px; } }
+  .sbt-btn > span {
+    padding-bottom: 4px;
+    display: inline-block; }
+  .sbt-btn .icon {
+    font-weight: normal; }
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 26px; } }
+
+.steps-indicator {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .steps-indicator span {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px; }
+    .steps-indicator span.active {
+      background-color: #fff; }
+
+.instructions {
+  color: white; }
+
+.hide {
+  display: none; }
+
+.card_back {
+  margin-top: 20px;
+  margin-right: 10px; }
+
+.holder {
+  overflow: hidden;
+  height: 480px; }
+
+#my-node {
+  position: relative; }
+  #my-node input {
+    position: absolute;
+    bottom: 10px; }
